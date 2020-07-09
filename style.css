@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: gray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    border-radius: 40px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    size: 50px;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
